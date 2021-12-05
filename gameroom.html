@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/languageSystem.js"></script>
+
+
+</head>
+
+<body>
+    <!-- create a new hangman game -->
+    <div id="game">
+        <div id="game-info">
+            <div id="game-info-title">
+                <h1>Hangman</h1>
+            </div>
+            <div id="game-info-score">
+                <h2>Score: <span id="score">0</span></h2>
+            </div>
+            <div id="guesses-left">
+                <h2>Lives: <span id="lives">6</span></h2>
+            </div>
+            <div id="hint">
+                <h2>Word: <span id="word"> </span></h2>
+            </div>
+            <div id="game-info-guess">
+                <h2>Guess: <span id="guess"> </span></h2>
+                <p id="guessed-letters"></p>
+            </div>
+            <div id="the-hangman" style="font-family: monospace; zoom: 3;"></div>
+            <div id="game-word">
+                <h2 id="word"></h2>
+            </div>
+
+
+        </div>
+        <div id="game-buttons">
+            <button id="button-a" class="button">A</button>
+            <button id="button-b" class="button">B</button>
+            <button id="button-c" class="button">C</button>
+            <button id="button-d" class="button">D</button>
+            <button id="button-e" class="button">E</button>
+            <button id="button-f" class="button">F</button>
+            <button id="button-g" class="button">G</button>
+            <button id="button-h" class="button">H</button>
+            <button id="button-i" class="button">I</button>
+            <button id="button-j" class="button">J</button>
+            <button id="button-k" class="button">K</button>
+            <button id="button-l" class="button">L</button>
+            <button id="button-m" class="button">M</button>
+            <button id="button-n" class="button">N</button>
+            <button id="button-o" class="button">O</button>
+            <button id="button-p" class="button">P</button>
+            <button id="button-q" class="button">Q</button>
+            <button id="button-r" class="button">R</button>
+            <button id="button-s" class="button">S</button>
+            <button id="button-t" class="button">T</button>
+            <button id="button-u" class="button">U</button>
+            <button id="button-v" class="button">V</button>
+            <button id="button-w" class="button">W</button>
+            <button id="button-x" class="button">X</button>
+            <button id="button-y" class="button">Y</button>
+            <button id="button-z" class="button">Z</button>
+        </div>
+        <div id="game-info-buttons">
+            <button id="new-game-btn">New Game</button>
+            <button id="hint-btn">Hint</button>
+        </div>
+        <p id="message"></p>
+        <script src="js/hangman.js"></script>
+</body>
+
+</html>
